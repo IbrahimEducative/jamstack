@@ -13,6 +13,7 @@ const Header = () => {
         onClick = {handleHomeRoute}
       >
         Home
+      </div>
       <div className={styles.linkContainer}>
         <div className={styles.link}>
           <Link href='/random-meal'>Meal Randomizer</Link>
